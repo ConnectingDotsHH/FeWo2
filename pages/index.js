@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <div style={{ fontFamily: 'Arial, sans-serif', backgroundColor: '#e0f7fa', color: '#023e8a' }}>
       <header style={heroStyle}>
-        <h1 style={{ fontSize: '48px', fontWeight: 'bold' }}>Ferienwohnung im Ostseeresort Olpenitz</h1>
+        <h1 style={{ fontSize: '48px', fontWeight: 'bold' }}>Sand & Seele</h1>
         <p style={{ fontSize: '20px', marginTop: '10px' }}>Erleben Sie erholsame Tage nur 300m vom Wasser entfernt.</p>
         <button style={buttonStyle} onClick={() => alert('Hier kommt später der Agentur-Link hin')}>Jetzt buchen</button>
       </header>
@@ -68,7 +68,7 @@ export default function Home() {
       </main>
 
       <footer style={{ textAlign: 'center', padding: '30px 20px', backgroundColor: '#0077b6', color: 'white' }}>
-        © {new Date().getFullYear()} Ferienwohnung Olpenitz – Matrosenring 95a, 24376 Kappeln
+        © {new Date().getFullYear()} Sand & Seele Olpenitz – Matrosenring 95a, 24376 Kappeln
       </footer>
     </div>
   );
